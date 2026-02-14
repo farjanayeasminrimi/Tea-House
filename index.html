@@ -20,25 +20,37 @@
   <body>
     <!-- Hero section -->
     <header>
-      <div class="container">
-        <div class="hero-intro-container">
-          <h1>
+      <div
+        class="container mx-auto grid grid-cols-1 gap-7 lg:gap-0.5 lg:grid-cols-2 pt-8 px-5 lg:px-0"
+      >
+        <div class="hero-intro-container space-y-6">
+          <h1 class="text-7xl font-extrabold dark1">
             It's good <br />
             tea time at The <br />
             Tea House
           </h1>
-          <p>Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-          <button>Explore More <i class="fa-solid fa-arrow-right"></i></button>
+          <p class="text-[1.1rem] dark3 font-medium text-sm/7">
+            Tea and Botanical Solutions Supplier Give Optimum <br />
+            Satisfaction To Your Taste Buds.
+          </p>
+          <button
+            class="py-2 px-3 rounded-lg font-bold secondary-color text-[1.2rem] bg-linear-to-r from-[#FF8938] to-[#FF0000]"
+          >
+            Explore More
+            <span class="-rotate-45 inline-block"><i class="fa-solid fa-arrow-right"></i></span>
+          </button>
         </div>
-        <div class="hero-img-container">
-          <img src="./images/banner.png" alt="Hero image" />
-          <div class="rating-container">
+        <div class="hero-img-container flex justify-end items-end relative">
+          <img class="w-xl" src="./images/banner.png" alt="Hero image" />
+          <div
+            class="rating-container flex justify-center items-center gap-3 w-52 rounded-xl py-3 px-2 shadow-lg bg-white absolute bottom-2 left-40"
+          >
             <div class="star">
-              <i class="fa-solid fa-star"></i>
+              <img src="./images/star.png" alt="Star Icon" />
             </div>
             <div class="rating-content">
-              <h2>5.00</h2>
-              <p>Trust Pilot Ratings</p>
+              <h2 class="text-[1.5rem] font-extrabold dark1">5.00</h2>
+              <p class="text-[1rem] dark3 font-medium text-sm/7">Trust Pilot Ratings</p>
             </div>
           </div>
         </div>
